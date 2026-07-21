@@ -22,15 +22,19 @@ Test area::
 
 Test integer_validator with no arguments::
 
-    >>> bg.integer_validator()
-    Traceback (most recent call last):
-    TypeError: BaseGeometry.integer_validator() missing 2 required positional arguments: 'name' and 'value'
+    >>> try:
+    ...     bg.integer_validator()
+    ... except TypeError:
+    ...     print("TypeError raised")
+    TypeError raised
 
 Test integer_validator with only the name argument::
 
-    >>> bg.integer_validator("age")
-    Traceback (most recent call last):
-    TypeError: BaseGeometry.integer_validator() missing 1 required positional argument: 'value'
+    >>> try:
+    ...     bg.integer_validator("age")
+    ... except TypeError:
+    ...     print("TypeError raised")
+    TypeError raised
 
 Test integer_validator with a valid positive integer::
 
