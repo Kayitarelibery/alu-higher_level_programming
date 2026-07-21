@@ -28,3 +28,17 @@ Empty list::
     >>> empty = MyList()
     >>> empty.print_sorted()
     []
+
+With negative numbers, appended out of sorted order::
+
+    >>> neg_list = MyList()
+    >>> neg_list.append(3)
+    >>> neg_list.append(-1)
+    >>> neg_list.append(0)
+    >>> neg_list.append(-5)
+    >>> print(neg_list)
+    [3, -1, 0, -5]
+    >>> neg_list.print_sorted()
+    [-5, -1, 0, 3]
+    >>> print(neg_list)
+    [3, -1, 0, -5]
