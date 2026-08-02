@@ -1,19 +1,24 @@
 #!/usr/bin/python3
-"""Module that prints a text with indentation after . ? and :"""
+"""Module that prints text with 2 new lines after ., ? and :."""
 
 
 def text_indentation(text):
-    """Print text with 2 new lines after each '.', '?' and ':'.
+    """Prints text with 2 new lines after each of the characters ., ? and :.
+
+    Args:
+        text: string to process
+
+    Raises:
+        TypeError: if text is not a string
     """
     if not isinstance(text, str):
         raise TypeError("text must be a string")
-    symbols = ".?:"
-    printable = ""
-    for char in text:
-        if char in symbols:
-            printable += char + "\n\n"
-        else:
-            printable += char
-    lines = printable.split("\n")
-    for line in lines:
-        print(line.strip())
+    result = ""
+    for c in text:
+        result += c
+        if c in ".?:":
+            print(result.strip(), end="")
+            print("\n\n", end="")
+            result = ""
+    if result:
+        print(result.strip(), end="")
