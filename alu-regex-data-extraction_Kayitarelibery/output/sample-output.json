@@ -1,0 +1,27 @@
+{
+  "emails": [
+    "jean.claude@alueducation.com",
+    "jc.alumni22@alumni.alueducation.com",
+    "support@si.alueducation.com",
+    "user@example.com"
+  ],
+  "alu_emails": [
+    "jean.claude@alueducation.com",
+    "jc.alumni22@alumni.alueducation.com",
+    "support@si.alueducation.com"
+  ],
+  "phone_numbers": [
+    "+250 788 123 456",
+    "(022) 555-0199",
+    "(555) 123-4567"
+  ],
+  "urls": [
+    "https://portal.alueducation.com/register?ref=2024",
+    "http://www.alustudentportal.org/login"
+  ],
+  "credit_cards": [
+    "************4444",
+    "************0004"
+  ],
+  "threats_detected": 2
+}

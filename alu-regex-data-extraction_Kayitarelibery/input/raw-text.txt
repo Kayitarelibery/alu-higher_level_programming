@@ -1,0 +1,31 @@
+Subject: Account Verification & Support Ticket #48213
+
+Hi team,
+
+My name is Jean Claude and I study at ALU. My official student email is jean.claude@alueducation.com,
+but you can also reach my alumni account at jc.alumni22@alumni.alueducation.com or the SI desk at
+support@si.alueducation.com if the first two bounce.
+
+I tried registering on https://portal.alueducation.com/register?ref=2024 but got an error. I also
+checked http://www.alustudentportal.org/login (note: no https, seems outdated).
+
+You can call me at +250 788 123 456 or on my landline (022) 555-0199. My roommate's US number is
+(555) 123-4567 ext. 22.
+
+Regarding the payment issue — I was charged twice on my card ending in 4242. Full number for reference
+(please redact in logs): 4111-2222-3333-4444, and a second attempt was made on 5500 0000 0000 0004.
+
+The meeting is scheduled for 14:30 (2:30 PM) tomorrow, and the backup session is at 09:00 GMT.
+
+Total amount charged: $129.99 USD, second charge was €45,00 EUR by mistake.
+
+Some students have been using #ALUStudentLife and #CodingBootcamp2024 to share updates, along with
+random tags like #!!!notavalidtag and #123.
+
+
+<script>alert('xss')</script>
+Email me at not-an-email@@@fake..com or admin'; DROP TABLE users;--
+Card: 0000-0000-0000-0000 (fake/test), 1234567890123456789 (too long)
+Weird spacing:    weird   .   email   @   alueducation . com
+Malformed url: http:/broken-link..com//
+Null bytes and control chars: user@example.com\x00\x01\x02
